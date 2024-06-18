@@ -6,7 +6,7 @@
 <br>
 <h1>Repository Contents</h1>
 <h3>Tasks and Levels: </h3> 
-<h4> Detailed documentation and code for the Level 1, Level 2, and Level 3 tasks that I need to complete as part of my internship. Each level represents a set of skills and projects that I must accomplish to earn my certification.</h4>
+<h4> Detailed documentation and code for the Level 1 tasks that I need to complete as part of my internship. Each level represents a set of skills and projects that I must accomplish to earn my certification.</h4>
 <ul>
   <li>Level 1 Tasks: Beginner-level tasks focusing on foundational front-end skills.</li>
   <ul>
@@ -14,8 +14,6 @@
     <li>Task 2: Build a landing page Website.</li>
     <li>Task 3: Build a fully functional calculator.</li>
   </ul>
-  <li>Level 2 Tasks: Intermediate-level tasks that build upon the basics and introduce more complex concepts and projects.</li>
-  <li>Level 3 Tasks: Advanced-level tasks that challenge me to apply my skills in comprehensive, real-world projects.</li>
 </ul>
 
 <h3>2. Code Snippets:</h3> 
