@@ -3,7 +3,137 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a demo website." />
+
     <title>Portfolio</title>
+
+    <!-- LINKS -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="images/v_logo.jpg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
   </head>
-  <body></body>
+
+  <body>
+    <!-- DROPDOWN MENU-->
+    <div class="sideMenu">
+      <ul>
+        <i
+          class="fa-solid fa-xmark sideMenuCross crossClass"
+          style="color: #ffffff"
+        ></i>
+        <li class="crossClass"><a href="#About">About Me</a></li>
+        <li class="crossClass"><a href="#Projects">Projects</a></li>
+        <li class="crossClass"><a href="#Skills">Skills</a></li>
+        <li class="crossClass">
+          <a
+            href="https://drive.google.com/file/d/1TgZjWa7dpAw2SjcIZJkXKlufryuf2L5Q/view?usp=sharing"
+            >Resume</a
+          >
+        </li>
+        <li class="crossClass"><a href="#Contact">Contact Me</a></li>
+      </ul>
+      <div class="innerSideContainer"></div>
+    </div>
+
+    <div id="wrapper">
+      <!-- NAVBAR AND HERO SECTION-->
+      <div class="container">
+        <!-- NAV BAR -->
+        <div class="nav-bar" id="About">
+          <div class="logo-container">
+            <img src="images/v_logo.jpg" class="logo" alt="V logo" id="Logo" />
+            <div class="logo-text">Portfolio</div>
+          </div>
+
+          <i class="fa-solid fa-bars hamburgerIcon" style="color: #ffffff"></i>
+
+          <div class="nav-items">
+            <div><a href="#About">About Me</a></div>
+            <div><a href="#Projects">Projects</a></div>
+            <div><a href="#Skills">Skills</a></div>
+            <div>
+              <a
+                href="https://drive.google.com/file/d/1TgZjWa7dpAw2SjcIZJkXKlufryuf2L5Q/view?usp=sharing"
+                >Resume</a
+              >
+            </div>
+            <div><a href="#Contact">Contact Me</a></div>
+          </div>
+        </div>
+
+        <!-- HERO SECTION-->
+        <div class="hero-section">
+          <!-- MAIN CONTENT -->
+          <div class="hero-main">
+            <div
+              class="hero-section-heading bg-clip-text bg-gradient-to-br from-primary-500"
+            >
+              Hello,I'm
+            </div>
+
+            <div class="hero-section-heading hero-section-sub-heading">
+              <span class="role"></span>
+            </div>
+
+            <div class="hero-section-description">
+              I am a B-Tech 4<sup>th</sup> year student. I have mastered my
+              skills in Full Stack Web Development and DSA. Here you will get to
+              have a brief look on my skills.
+            </div>
+
+            <div class="contactBtns">
+              <a
+                href="https://www.linkedin.com/in/sahil-kumar-79b203221/?originalSubdomain=in"
+              >
+                <div class="hire-btn" id="btn">Hire Me</div>
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1TgZjWa7dpAw2SjcIZJkXKlufryuf2L5Q/view?usp=sharing"
+              >
+                <div class="hire-btn hireBtn2" id="btn">Download CV</div>
+              </a>
+            </div>
+          </div>
+
+          <!-- ANNIMATION -->
+          <div class="hero-annimation">
+            <div class="main-image">
+              <img src="NewImages/sahilImage.jpg" alt="Sahil Kumar" />
+            </div>
+          </div>
+
+          <!-- FADED TEXT -->
+          <div class="faded-text">Sahil Kumar</div>
+        </div>
+
+        <hr class="heroHr" />
+      </div>
+    </div>
+
+    <!-- SCRIPT -->
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script
+      src="https://kit.fontawesome.com/58a810656e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var typeData = new Typed(".role", {
+        strings: [
+          "Full Stack Developer",
+          "Competitive Programmer",
+          "Web Developer",
+          "UI-UX Designer",
+          "Backend Developer",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+      });
+    </script>
+  </body>
 </html>
